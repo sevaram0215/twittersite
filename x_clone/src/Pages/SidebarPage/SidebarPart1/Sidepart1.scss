@@ -1,0 +1,45 @@
+.sidelogoMainCont{
+    // border: 5px solid rgb(11, 230, 47);
+    font-size: 20px;
+  
+   
+    & .logoCont{
+        // border: 2px solid red;
+        align-items: center;
+        display: flex;
+    
+
+      gap: 40px;
+        // font-size: 20px;
+        // margin-top: 10px;
+    }
+    & .Postbtn{
+        // border: 2px solid red;
+    }
+    & .dropup-center{
+        // border: 1px solid greenyellow;v
+        width: 100%;
+     
+ 
+        & .btn{
+          width: 100%;
+          display: flex;
+          background-color: black;
+          gap: 35px;
+          font-size: 40;
+          padding: 00;
+        }
+        & .dropdown-menu{
+            width: 97%;
+            margin: auto;
+            border-radius: 10px;
+          
+        
+            & li{
+                font-size: 20px;
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}    

@@ -1,0 +1,37 @@
+.MainCont_2{
+
+    border-bottom: 1px solid rgba(223, 209, 209, 0.522);
+    display: flex;
+padding: 10px;
+gap: 10px;
+& .maincont2_child2{
+    width: 89%;
+    // border: 2px solid blue;
+    display:block;
+  
+    & .Maincont_2_logo{
+        // width: 60%;
+        // border: 2px solid red;
+        display: flex;
+        gap: 40px;
+        margin-top: 20px;
+        justify-content: space-between;
+        & .logo_div{
+            display: flex;
+            gap: 12px;
+            font-size: 22px;
+            color: #1D9BF0;
+        }
+        & .button_div{
+    //  border: 2px solid red;
+            & button{
+                background-color: #1D9BF0;
+                border-radius: 20px;
+                padding: 2px;
+                width: 70px;
+            }
+
+        }
+    }
+}
+}

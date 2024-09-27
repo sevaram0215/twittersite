@@ -1,0 +1,65 @@
+.rightmain_div{
+    border: 1px solid rgba(247, 241, 241, 0.391);
+    // padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    
+    
+    & .Expore_div{
+     
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        & button{
+            margin: 10px;
+            align-items: center;
+            justify-content: center;
+   
+        }
+        & .Betabtn{
+            
+            color: white;
+           font-size: 13px;
+            // border-radius: 10px;
+            outline: none;
+            border: none;
+            background-color: rgb(138, 43, 8);
+            font-weight: 500;
+& button{
+    padding: 4px;
+    height: 25px;
+}
+        }
+    }
+    & .exploreimg_and_time{
+        margin-top: 5%;
+        // border: 2px solid red;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      
+    }
+   
+}
+
+.Show_more:hover{
+background-color: rgba(33, 31, 31, 0.493);
+}
+
+.apart_div{
+    padding: 10px;
+}
+
+.apart_div:hover{
+    background-color: rgba(44, 43, 43, 0.596);
+    cursor: pointer;
+    width: 100%;
+}
+
+.exploreimg_and_time p{
+font-size: 12px;
+opacity: .6;
+margin-top: 10px;
+}

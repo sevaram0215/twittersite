@@ -1,0 +1,22 @@
+
+ .main{
+    /* width: 70%; */
+    margin:  auto;
+  background-color: #000000;
+  color: white;
+  height: 100vh;
+  display: flex;
+  overflow: auto;
+  scrollbar-width: none;
+ }
+ .sidebar{
+    /* border:  2px solid rgb(83, 225, 40); */
+    width: 40%;
+    height: 100vh;
+ }
+ 
+ /* .Contant_div{
+    border: 2px solid green;
+    /* width: 4
+   100%; */
+ /* } */ 
