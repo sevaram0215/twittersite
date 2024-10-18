@@ -1,0 +1,48 @@
+.main_div{
+    // border: 2px solid red;
+    width: 100%;
+    & .search_div{
+        border: 2px solid blue;
+        display: flex;
+        justify-content: space-between;
+        // gap: 120px;
+        align-items: center;
+        & input{
+            // border: 2px solid green;
+            width: 80%;
+            margin-left: 8px;
+            border-radius: 10px;
+         background-color: rgba(26, 25, 25, 0.927);
+        }
+    }
+    & .navtab_cont{
+        // border: 2px solid red;
+        & ul{
+            width: 99%;
+            margin: auto;
+        // border: 2px solid red;
+        display: flex;
+      gap: 58px;
+      
+     
+        }
+        & .nav-link:hover{
+            color: #fff;
+        }
+    }
+}
+.maintxt {position: relative;top: 20px;}
+.maintxt > img, .overlay-text {position: absolute;
+}
+.trading_div{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center;
+    & .exploreimg_and_time{
+// border: 1px solid red;
+display: flex;
+gap: 15px;
+    }
+}

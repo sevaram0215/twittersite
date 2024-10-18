@@ -5,17 +5,9 @@ width: 60%;
 border: 1px solid rgba(220, 200, 200, 0.383);
 overflow: auto;
 scrollbar-width: none;
+position: relative;
 
-    & .mainBar_1cont{
-        position: sticky;
-        top: 0;
-        font-size:22px;
-        display: flex;
-        justify-content: space-around;
-      padding: 15px 0px;
-        border-bottom: 2px solid grey;
-        margin: auto;
-    }
+    
 }
 
 .main_scrollbar{

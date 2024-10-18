@@ -1,0 +1,15 @@
+.main_tranding_div{
+    // border: 1px solid red;
+    padding: 10px;
+    & .hastage_trade{
+        // border: 1px solid green;
+        margin-top: 7px;
+      
+        display: flex;
+        justify-content: space-between;
+        & p{
+            margin: 00;
+            
+        }
+    }
+}

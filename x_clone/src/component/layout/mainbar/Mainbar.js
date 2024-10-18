@@ -1,23 +1,23 @@
-import MainCont2 from "../../../Pages/mainContant/maincont2/Maincont2";
-import MainCont3 from "../../../Pages/mainContant/maincont3/MainCont3";
+import { Route, Routes } from "react-router-dom";
 import "./Mainbar.scss"
+import Explore from "../../../Pages/explore/Explore";
+import HomeData from "../../../Pages/Home/Home";
+import Mesage from "../../../Pages/Mesage/Mesage";
 const MainBar = () => {
   return (
     < div className="mainBar_mainCont">
-      <div  className="mainBar_1cont">
-
-        <div>
-          <span>For you</span>
-        </div>
-        <div>
-          <span> Following</span>
-        </div>
-      </div>
+      
+      <Routes>
+        <Route path="/Explore" element={<Explore/>} />
+        <Route path="/Home" element={<HomeData />}/>
+        <Route path="/Mesage" element={<Mesage />}/>
+        
+      </Routes>
+     
    
-      <div className="main_scrollbar">
-      <MainCont2/> 
-      <MainCont3/>
-      </div>
+     
+     
+    
     </div>
   );
 };

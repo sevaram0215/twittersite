@@ -64,7 +64,7 @@ const MainCont3=()=>{
                         </p>
                     </div>
                     <div>
-                        <img src={data.postimg} style={{width:"600px", borderRadius:"10px"}}></img>
+                        <img src={data.postimg} style={{width:"740px", borderRadius:"10px"}}></img>
                     </div>
                     <div className="comt_like_div">
                     <span><FaComment /> 1</span>

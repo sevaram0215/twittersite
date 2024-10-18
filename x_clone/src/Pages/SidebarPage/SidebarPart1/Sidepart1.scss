@@ -2,16 +2,15 @@
     // border: 5px solid rgb(11, 230, 47);
     font-size: 20px;
   
-   
-    & .logoCont{
-        // border: 2px solid red;
-        align-items: center;
-        display: flex;
-    
+   & .logoCont{
+    // border: 1px solid red;
+    &.active{
+        font-weight:bold;
+    }
 
-      gap: 40px;
-        // font-size: 20px;
-        // margin-top: 10px;
+    &.logoCont:hover{
+        // border: 1px solid red;
+        background-color: rgb(37, 37, 37);
     }
     & .Postbtn{
         // border: 2px solid red;
@@ -22,6 +21,8 @@
      
  
         & .btn{
+            border: none;
+            margin-top: 5px;
           width: 100%;
           display: flex;
           background-color: black;
@@ -33,13 +34,28 @@
             width: 97%;
             margin: auto;
             border-radius: 10px;
+           
           
         
             & li{
                 font-size: 20px;
-                background-color: white;
+                // background-color: white;
                 color: black;
             }
         }
     }
-}    
+} }
+
+.more_div{
+    // border: 2px solid red;   
+    width: 100%;
+    display: flex;
+    gap: 34px;
+ align-items: center;
+ font-size: 21px;
+ & .dropdown-menu{
+    background-color: black;
+    width: 100%;
+    border: 1px solid red;
+ }
+}

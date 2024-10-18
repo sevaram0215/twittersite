@@ -7,9 +7,12 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaBold } from "react-icons/fa";
 import { FaItalic } from "react-icons/fa";
 import { FaTimeline } from "react-icons/fa6";
+import MainCont3 from "../maincont3/MainCont3";
 
 const MainCont2=()=>{
     return(
+        <>
+    
 <div className="MainCont_2">
     <div>
         <img  style={{width:"44px", borderRadius:"40px"}} src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTKqIg3pZGnGVuDbO7piYwe2EBzDMOcMohDv5sIWQ-tnD7ruRla"></img>
@@ -38,6 +41,11 @@ const MainCont2=()=>{
     </div>
 
 </div>
+<div>
+    <MainCont3/>
+</div>
+</>
+
     )
 }
 export default MainCont2

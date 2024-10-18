@@ -1,0 +1,12 @@
+.Sport_Main_div{
+    border: 2px solid red;
+    & .sport_div{
+        border: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+        & .exploreimg_and_time{
+            display: flex;
+            gap: 15px;
+        }
+    }
+}
